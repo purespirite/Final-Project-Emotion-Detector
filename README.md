@@ -1,59 +1,14 @@
-# Emotion Detection Web Application
+# Final Project
 
-## Introduction
+## Emotion Detection Web Application
 
-This repository contains my implementation of the **Emotion Detection Web Application** developed as part of the final project.
+This repository contains the **Final Project** for the IBM Emotion Detection application.
 
-The project demonstrates the use of **Watson NLP** for emotion detection and **Flask** for deploying the application as a web application. The application accepts a text statement from the user and analyzes it to identify different emotions such as joy, sadness, anger, fear, and disgust.
+### Project Description
 
-The project also includes output formatting, package validation, unit testing, error handling, and static code analysis.
+The project is an Emotion Detection Web Application that analyzes a user's text and identifies the emotions expressed in the text.
 
-## Project Objective
-
-The main objective of this project is to develop an AI-based emotion detection application that can:
-
-* Analyze a given text statement.
-* Detect different emotions present in the text.
-* Identify the dominant emotion.
-* Display the results in a clear and user-friendly format.
-* Handle invalid or blank input appropriately.
-* Provide a web interface using Flask.
-* Maintain code quality through unit testing and static code analysis.
-
-## Technologies Used
-
-* Python
-* Watson NLP
-* Flask
-* HTML
-* JavaScript
-* CSS
-* Unit Testing
-* Pylint
-
-## Project Structure
-
-```text
-Final-Project-Emotion-Detector/
-│
-├── EmotionDetection/
-│   ├── __init__.py
-│   └── emotion_detection.py
-│
-├── static/
-│   └── mywebscript.js
-│
-├── templates/
-│   └── index.html
-│
-├── server.py
-├── test_emotion_detection.py
-└── README.md
-```
-
-## Emotion Detection
-
-The application uses the Watson NLP emotion detection functionality to analyze text and determine the following emotions:
+The application detects the following emotions:
 
 * Anger
 * Disgust
@@ -61,27 +16,54 @@ The application uses the Watson NLP emotion detection functionality to analyze t
 * Joy
 * Sadness
 
-The application also determines the **dominant emotion** based on the detected emotion scores.
+It also identifies the **dominant emotion**.
 
-## Output Format
+### Technologies Used
 
-The emotion detector returns the detected emotion scores along with the dominant emotion.
+* Python
+* Flask
+* Watson NLP
+* HTML
+* CSS
+* JavaScript
+* GitHub
 
-Example:
+### Project Structure
 
 ```text
-{
-    'anger': 0.01,
-    'disgust': 0.01,
-    'fear': 0.01,
-    'joy': 0.95,
-    'sadness': 0.02,
-    'dominant_emotion': 'joy'
-}
+oaqjp-final-project-emb-ai/
+│
+├── EmotionDetection/
+│   ├── __init__.py
+│   └── emotion_detection.py
+│
+├── static/
+├── templates/
+├── server.py
+├── test_emotion_detection.py
+└── README.md
 ```
 
-The exact scores depend on the input text.
+### Project Objective
 
-## Unit Testing
+The objective of this **Final Project** is to develop and deploy an emotion detection application using Watson NLP and Flask. The application accepts text input and returns the detected emotions along with the dominant emotion.
 
-Unit tests are
+### Features
+
+* Emotion detection from text
+* Detection of five different emotions
+* Identification of dominant emotion
+* Flask web interface
+* Error handling for invalid input
+* Unit testing
+* Static code analysis using Pylint
+
+### Repository
+
+This repository is named:
+
+**oaqjp-final-project-emb-ai**
+
+### Conclusion
+
+This **Final Project** demonstrates the development of an AI-powered Emotion Detection Web Application using Python, Watson NLP, and Flask.
