@@ -1,0 +1,10 @@
+>> from EmotionDetection import emotion_detection
+Traceback (most recent call last):
+  File "<python-input-5>", line 1, in <module>
+    from EmotionDetection import emotion_detection
+  File "C:\Users\DELL\Desktop\Final-Project-Emotion-Detector\EmotionDetection\__init__.py", line 1, in <module>
+    from . import emotion_detection
+  File "C:\Users\DELL\Desktop\Final-Project-Emotion-Detector\EmotionDetection\emotion_detection.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+>>> print("EmotionDetection is a valid package")
