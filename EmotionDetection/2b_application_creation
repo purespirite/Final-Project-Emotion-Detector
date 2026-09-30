@@ -1,0 +1,13 @@
+C:\Users\DELL\Desktop\Final-Project-Emotion-Detector>python
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+Traceback (most recent call last):
+  File "<python-input-0>", line 1, in <module>
+    from EmotionDetection.emotion_detection import emotion_detector
+  File "C:\Users\DELL\Desktop\Final-Project-Emotion-Detector\EmotionDetection\__init__.py", line 1, in <module>
+    from . import emotion_detection
+  File "C:\Users\DELL\Desktop\Final-Project-Emotion-Detector\EmotionDetection\emotion_detection.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+>>> emotion_detector("I am glad this happened")
